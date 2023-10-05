@@ -4000,7 +4000,7 @@ img {
 }
 
 .cookie-container {
-  z-index: 100;
+  z-index: 99999999;
   width: 100%;
   position: fixed;
   bottom: -100%;
@@ -5694,7 +5694,7 @@ video{width: 100%;display: none;}
 
   nav {
     justify-content: space-between;
-    background-color: white;
+    background-color: transparent;
   }
 
   .nav-links {
@@ -5784,6 +5784,7 @@ video{width: 100%;display: none;}
   .size-h1 {
     font-size: 40px;
   }
+.wizard{display:none;}
   .hero-text {
     padding-top: 10px;
     margin-top: 10px;
@@ -5793,13 +5794,16 @@ video{width: 100%;display: none;}
     width: 600px;
     bottom: -95px;
   }
-
+#layout * img{height:auto;object-fit:unset;width:100%;}
   .hero {
     align-items: flex-start;
     padding-bottom: 0px;
   }
 }
-
+@media screen and (max-width: 450px) {.logo a img {
+    height: 80px;
+    object-fit: cover;
+}}
 .nav-active {
   transform: translateX(0%);
 }
@@ -5820,7 +5824,7 @@ video{width: 100%;display: none;}
 
 
 /* baba magic */
-.scene strong{font-size: 22px;color:#fff;text-transform: uppercase;font-family: cursive;display: block;text-align: center;}
+.scene strong{font-size: 22px;color:#fff;text-transform: uppercase;font-family:Integral CF, sans-serif;display: block;text-align: center;}
 .scene {
   display: flex;
   position: relative;
