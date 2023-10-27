@@ -53,3 +53,79 @@
 .anim-span.web {
   color: rgb(240, 157, 31);
 }
+
+
+
+
+
+#sustain * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+#sustain {
+  width: 100%;
+  height: 100%;
+  padding: 0px 8%;
+}
+
+#sustain h1 {
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 60px;
+  font-weight: 600;
+  position: relative;
+}
+
+#sustain h1::after {
+  content: '';
+  background: rgb(240, 157, 31);
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#sustain .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+#sustain .service {
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.5s, background 0.5s;
+}
+
+#sustain .service i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(240, 157, 31);
+}
+
+#sustain .service h2 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#sustain .service:hover {
+  background:rgb(240, 157, 31);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+#sustain .service:hover i {
+  color: #fff;
+}
+
+
+
