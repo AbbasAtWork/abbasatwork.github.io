@@ -71,18 +71,20 @@
   padding: 0px 8%;
 }
 
-#sustain h1 {
+#sustain h6 {
   text-align: center;
   padding-top: 10%;
   margin-bottom: 60px;
+font-family: Roboto, sans-serif;
   font-weight: 600;
   position: relative;
+text-decoration:Capitalize;
 }
 
 #sustain h1::after {
   content: '';
   background: rgb(240, 157, 31);
-  width: 100px;
+  width: 250px;
   height: 5px;
   position: absolute;
   bottom: -5px;
@@ -114,7 +116,9 @@
 
 #sustain .service h2 {
   font-weight: 600;
+font-family: Roboto, sans-serif;
   margin-bottom: 8px;
+text-decoration:;capitalize
 }
 
 #sustain .service:hover {
