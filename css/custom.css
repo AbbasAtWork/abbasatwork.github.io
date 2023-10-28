@@ -118,7 +118,7 @@ text-decoration:Capitalize;
   font-weight: 600;
 font-family: Roboto, sans-serif;
   margin-bottom: 8px;
-text-decoration:capitalize;
+text-transform:capitalize;
 }
 
 #sustain .service:hover {
