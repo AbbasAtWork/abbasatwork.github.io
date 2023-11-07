@@ -5520,7 +5520,9 @@ h3 {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width:auto;
+padding:0px;
+gap:15px;
 }
 
 .cross .line1 {
