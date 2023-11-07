@@ -5116,7 +5116,7 @@ img {
     padding-right: 0px;
     padding-left: 0px;
   }
-.hero-p{font-size:14px;margin-block:1rem;}
+
   .col.lg-6.xs-12 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 100%;
@@ -6826,3 +6826,10 @@ video{width: 100%;display: none;}
 footer .fa-brand{text-align: left;}
 footer .fa-brand a{color: #fff;font-size: 20px;}
 /*  coool newsletter */
+
+@media (max-width: 575px) {
+  .hero-p {
+    font-size: 14px;
+    margin-block: 1rem;
+}}
+
