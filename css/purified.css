@@ -6839,7 +6839,7 @@ footer .fa-brand a{color: #fff;font-size: 20px;}
 .servicepages *, ::after, ::before {
     box-sizing: border-box;
 }
-.servicepages * .container{
+.servicepages .container{
         width: 100%;
     padding-right:15px;
     padding-left:15px;
